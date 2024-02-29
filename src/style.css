@@ -1,5 +1,10 @@
 body {
-  background-color: #f9f7fe;
+  background: linear-gradient(
+    179.1deg,
+    rgb(247, 238, 238) -1.9%,
+    rgb(247, 202, 201) 44.9%,
+    rgb(145, 168, 208) 96.1%
+  );
   font-family: "nunito", sans-serif;
 }
 
@@ -42,7 +47,7 @@ form {
 }
 
 main {
-  padding: 30 px 0;
+  padding: 30px 0;
 }
 
 .weather-app-data {
@@ -52,7 +57,7 @@ main {
 
 .weather-app-city {
   margin: 0;
-  font-size: 38px;
+  font-size: 40px;
   line-height: 48px;
 }
 .weather-app-details {
@@ -71,18 +76,18 @@ main {
 }
 
 .weather-app-icon {
-  font-size: 44px;
-  margin-top: 22px;
+  width: 80px;
+  height: 80px;
 }
 
 .weather-app-temperature {
-  font-size: 88px;
-  margin-left: 10px;
+  font-size: 80px;
+  line-height: 80px;
   font-weight: 500;
 }
 
 .weather-app-unit {
-  margin-top: 16px;
+  margin-top: 6px;
   font-size: 28px;
 }
 
